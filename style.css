@@ -1,0 +1,36 @@
+body {
+  background-size: cover !important;
+  background-image: url("bg.jpg") !important;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+canvas {
+  display: inline-block;
+  height: 100vh;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+canvas:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  line-height: 7rem;
+}
+
+/* .logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+} */

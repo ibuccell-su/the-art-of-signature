@@ -9,13 +9,13 @@ body {
 canvas {
   display: inline-block;
   height: 100vh;
-  cursor: -webkit-grab;
-  cursor: grab;
+  /* cursor: -webkit-grab;
+  cursor: grab; */
 }
 
 canvas:active {
-  cursor: -webkit-grabbing;
-  cursor: grabbing;
+  /* cursor: -webkit-grabbing;
+  cursor: grabbing; */
 }
 
 h1 {
